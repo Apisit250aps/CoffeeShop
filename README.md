@@ -33,4 +33,5 @@ npm run build
 ```sh
 npm run lint
 ```
-"# CoffeeShop" 
+
+# [Deploy](https://coffee-shop-brown.vercel.app/)
