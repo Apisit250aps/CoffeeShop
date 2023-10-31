@@ -4,7 +4,7 @@ import { Perspective, AutoPlay } from "@egjs/flicking-plugins";
 
 const plugins = [
     new Perspective({ rotate: 0.5 }),
-    new AutoPlay({ duration: 2000, direction: "NEXT", stopOnHover: false })
+    new AutoPlay({ duration: 2000, direction: "NEXT", stopOnHover: true })
 ];
 const options = {
     circular: true,
@@ -13,7 +13,7 @@ const options = {
 
 };
 
-const recommends = ['Latte', "Americano", "Mocha", "Espresso", "Black Coffee"]
+const recommends = ['Latte', "Americano", "Mocha", "Espresso", "Black Coffee", "Cappuccino", "Affogato","Flat White", "Macchiato"]
 </script>
 
 <template>
@@ -33,18 +33,14 @@ const recommends = ['Latte', "Americano", "Mocha", "Espresso", "Black Coffee"]
                     <div class=" badge badge-price">price 3 $</div>
                 </div>
                 <div class="menu-footer">
-                    <button type="button" class=" btn btn-lg menu-btn-l">
-                        <i class="bx bx-heart"></i>
+                    <button type="button" class=" btn btn-lg menu-btn-heart">
+                        <i class="bx bx-heart bx-tada-hover"></i>
                     </button>
                     <button type="button" class=" btn btn-lg menu-btn-cart">
-                        <i class="bx bxs-cart-download"></i>
+                        <i class="bx bxs-cart-download bx-tada-hover"></i>
                     </button>
                 </div>
             </div>
-
-            
-
-
         </Flicking>
 
     </section>
@@ -82,6 +78,8 @@ const recommends = ['Latte', "Americano", "Mocha", "Espresso", "Black Coffee"]
 }
 
 .menu-btn-cart {
+    width: 4rem;
+    height: 3rem;
     border-radius: 20px 0px 20px 5px;
     background-color: #634832;
     color: white;
@@ -92,6 +90,10 @@ const recommends = ['Latte', "Americano", "Mocha", "Espresso", "Black Coffee"]
     background-color: white;
     border: #634832 1px solid;
     color: #634832;
+}
+
+.menu-btn-heart:hover {
+    color:red;
 }
 
 
