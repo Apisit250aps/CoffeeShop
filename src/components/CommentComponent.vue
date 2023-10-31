@@ -66,7 +66,7 @@ const reviews = [
                         src="https://img.freepik.com/free-vector/realistic-coffee-background-with-drawings_79603-603.jpg?w=1380&t=st=1698764599~exp=1698765199~hmac=70234a5454daa12ed6b1e5f4921bd98bfdc9a213ac1908c8e8ef09739a9bef43"
                         alt="">
                 </div>
-                <div class="col">
+                <div class="col py-2">
                     <p class="text-white fs-4"><span><i class='bx bx-message-square-dots mx-2'></i></span>Review</p>
                     <hr class="border-white">
                     <div class="comment-list px-2">

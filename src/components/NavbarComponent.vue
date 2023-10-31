@@ -3,7 +3,7 @@
 </script>
 
 <template>
-    <nav class="navbar navbar-expand-lg pt-lg-5 pt-3 sticky-top">
+    <nav class="navbar navbar-expand-lg  pt-3 sticky-top">
         <div class="container d-flex flex-row align-items-center justify-content-between">
             <a class="navbar-brand fw-semibold" href="#" style="color: #38220f;">
                 <p class="fs-4">Cafe, Coffee</p>
