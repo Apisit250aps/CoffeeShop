@@ -24,7 +24,7 @@
             <div class="text-white-50 nav">
                 <div class="mx-1">
                     <i class="bx bx-copyright mx-2"></i>
-                    <span>Apisit Saithong</span>
+                    <span>2023 : Apisit Saithong</span>
                 </div>
                 <a class="mx-1 text-decoration-none text-white-50" href="https://github.com/Apisit250aps">
                     <i class="bx bxl-github mx-2"></i>
