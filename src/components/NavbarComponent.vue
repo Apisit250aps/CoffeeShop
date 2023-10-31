@@ -5,7 +5,9 @@
 <template>
     <nav class="navbar navbar-expand-lg pt-lg-5 pt-3 sticky-top">
         <div class="container d-flex flex-row align-items-center justify-content-between">
-            <a class="navbar-brand fw-bold" href="#" style="color: #38220f;">Cafe, Coffee</a>
+            <a class="navbar-brand fw-semibold" href="#" style="color: #38220f;">
+                <p class="fs-4">Cafe, Coffee</p>
+            </a>
             <div class="offcanvas offcanvas-end rounded-start-4" tabindex="-1" id="offcanvasNavbar"
                 aria-labelledby="offcanvasNavbarLabel">
                 <div class="offcanvas-header">
@@ -21,11 +23,13 @@
                                 <span class="d-inline d-lg-none"><i class="bx mx-3 bx-s bx-home"></i></span>Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#service"><span class="d-inline d-lg-none"><i class="bx mx-3 bx-s bx-qr-scan"></i></span>Service</a>
+                            <a class="nav-link" href="#service"><span class="d-inline d-lg-none"><i
+                                        class="bx mx-3 bx-s bx-qr-scan"></i></span>Service</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#recommend">
-                                <span class="d-inline d-lg-none"><i class="bx mx-3 bx-s bx-food-menu"></i></span>Recommend</a>
+                                <span class="d-inline d-lg-none"><i
+                                        class="bx mx-3 bx-s bx-food-menu"></i></span>Recommend</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">
@@ -38,16 +42,16 @@
                 <button type="button" class="btn btn-inline d-inline-block text-center  rounded-circle pe-auto mx-1 ">
                     <i class="bx bx-cart bx-tada"></i>
                 </button>
-                <button type="button" class="btn btn-inline d-inline-block text-center justify-content-center align-items-center  rounded-circle pe-auto mx-1">
-                <i class="bx bx-heart bx-tada"></i>
+                <button type="button"
+                    class="btn btn-inline d-inline-block text-center justify-content-center align-items-center  rounded-circle pe-auto mx-1">
+                    <i class="bx bx-heart bx-tada"></i>
                 </button>
-                
-                <button class="btn btn-inline d-inline-block text-center d-lg-none rounded-circle pe-auto mx-1" type="button"
-                    data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"
-                    aria-label="Toggle navigation">
+
+                <button class="btn btn-inline d-inline-block text-center d-lg-none rounded-circle pe-auto mx-1"
+                    type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                    aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                     <i class="bx bx-menu bx-tada"></i>
                 </button>
             </div>
         </div>
-    </nav>
-</template>
+</nav></template>

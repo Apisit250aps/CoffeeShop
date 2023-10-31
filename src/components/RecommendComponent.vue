@@ -21,7 +21,7 @@ const recommends = ['Latte', "Americano", "Mocha", "Espresso", "Black Coffee", "
         <p class="fs-3" style="color: #38220f;">Recommend</p>
         <hr class="border-2" style="border-color: #38220f;">
         <Flicking class="py-5" :options="options" :plugins="plugins">
-            <div class="menu-card card-panel shadow rounded-4 my-5 mx-3" v-for="(item, index) in recommends" :key="index">
+            <div class="menu-card card-panel shadow-sm rounded-4 my-5 mx-3" v-for="(item, index) in recommends" :key="index">
                 <div class="menu-img">
                     <img class="img-fluid"
                         src="https://purepng.com/public/uploads/large/purepng.com-cup-mug-coffeecupmugcoffeebean-1411527406382isz5a.png"
@@ -36,16 +36,14 @@ const recommends = ['Latte', "Americano", "Mocha", "Espresso", "Black Coffee", "
                     <button type="button" class=" btn btn-lg menu-btn-heart">
                         <i class="bx bx-heart bx-tada-hover"></i>
                     </button>
-                    <button type="button" class=" btn btn-lg menu-btn-cart">
+                    <button type="button" class=" btn btn-lg menu-btn-cart shadow-sm">
                         <i class="bx bxs-cart-download bx-tada-hover"></i>
                     </button>
                 </div>
             </div>
         </Flicking>
-
     </section>
 </template>
-
 <style>
 #recommend {
     height: auto;
@@ -78,9 +76,10 @@ const recommends = ['Latte', "Americano", "Mocha", "Espresso", "Black Coffee", "
 }
 
 .menu-btn-cart {
-    width: 4rem;
-    height: 3rem;
-    border-radius: 20px 0px 20px 5px;
+    position: relative;
+    top: 5px;
+    left: 5px;
+    border-radius: 20px 0px 15px 0px;
     background-color: #634832;
     color: white;
     border: #634832 1px solid;
