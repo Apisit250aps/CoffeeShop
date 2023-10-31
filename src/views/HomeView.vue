@@ -6,6 +6,8 @@ import CarouselComponent from '../components/CarouselComponent.vue';
 import RecommendComponent from '../components/RecommendComponent.vue';
 import MenuComponent from '../components/MenuComponent.vue';
 import CommentComponent from '../components/CommentComponent.vue';
+import FooterComponent from '../components/FooterComponent.vue';
+
 </script>
 
 <template>
@@ -16,4 +18,5 @@ import CommentComponent from '../components/CommentComponent.vue';
   <MenuComponent />
   <CommentComponent />
   <div class="vh-100"></div>
+  <FooterComponent />
 </template>
