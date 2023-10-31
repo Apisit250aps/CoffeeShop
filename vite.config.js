@@ -11,7 +11,7 @@ export default defineConfig({
   ],
   resolve: {
     alias: {
-      '@': fileURLToPath(new URL('./disc', import.meta.url))
+      '@': fileURLToPath(new URL('./dist', import.meta.url))
     }
   }
 })
