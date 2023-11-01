@@ -5,20 +5,8 @@
 <template>
     <footer id="footer">
         <div class="container py-3">
-            <div class="row row-cols-3">
-                <div class="col">
-                    <img src="../assets/logo2.png" alt="" class="img-fluid footer-logo">
-                </div>
-                <div class="col">
-                    <div class="">
-                        <p class="text-white">Menu</p>
-                        <ul class="text-white-50">
-                            <li>Coffee</li>
-                            <li>Tea</li>
-                            <li>Other</li>
-                        </ul>
-                    </div>
-                </div>
+            <div class="row row-cols-1 row-cols-lg-3">
+                
             </div>
             <hr>
             <div class="text-white-50 nav">
@@ -38,9 +26,7 @@
                     <i class="bx bxl-gmail mx-2"></i>
                     <span>aps.apisit250@gmail.com</span>
                 </div>
-
             </div>
-
         </div>
     </footer>
 </template>
