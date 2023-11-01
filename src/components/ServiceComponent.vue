@@ -13,7 +13,7 @@
                         alt="" srcset="" class="img-fluid rounded-5 ">
                 </div>
                 <div class="col py-3">
-                    <div class="row row-cols-2 m-auto g-5">
+                    <div class="row row-cols-2 m-auto g-0 g-lg-3">
                         <div class="col" >
                             <div class="row">
                                 <div class="col-12 col-lg-4">

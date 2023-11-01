@@ -22,7 +22,7 @@ const coffee_names = ["Espresso", "Latte", "Mocha", "Cappuccino", "Americano", "
                     <div class="col">
                         <div class="row row-cols-2 m-auto">
                             <div class="col">
-                                <div class="row m-auto g-5">
+                                <div class="row m-auto g-0 g-lg-4">
                                     <div class="col-12 col-lg-4">
                                         <i class='bx bxs-coffee bx-lg' style="color: #ece0d1;"></i>
                                     </div>
@@ -33,7 +33,7 @@ const coffee_names = ["Espresso", "Latte", "Mocha", "Cappuccino", "Americano", "
                                 </div>
                             </div>
                             <div class="col">
-                                <div class="row m-auto g-5">
+                                <div class="row m-auto g-0 g-lg-4">
                                     <div class="col-12 col-lg-4">
                                         <i class='bx bxs-cake bx-lg' style="color: #ece0d1;"></i>
                                     </div>
@@ -44,7 +44,7 @@ const coffee_names = ["Espresso", "Latte", "Mocha", "Cappuccino", "Americano", "
                                 </div>
                             </div>
                             <div class="col">
-                                <div class="row m-auto g-5">
+                                <div class="row m-auto g-0 g-lg-4">
                                     <div class="col-12 col-lg-4">
                                         <i class='bx bxs-bowl-hot bx-lg' style="color: #ece0d1;"></i>
                                     </div>
@@ -55,7 +55,7 @@ const coffee_names = ["Espresso", "Latte", "Mocha", "Cappuccino", "Americano", "
                                 </div>
                             </div>
                             <div class="col">
-                                <div class="row m-auto g-5">
+                                <div class="row m-auto g-0 g-lg-4">
                                     <div class="col-12 col-lg-4">
                                         <i class='bx bxs-drink bx-lg' style="color: #ece0d1;"></i>
                                     </div>
