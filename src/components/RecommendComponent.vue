@@ -17,7 +17,7 @@ const recommends = ['Latte', "Americano", "Mocha", "Espresso", "Black Coffee", "
 </script>
 
 <template>
-    <section id="recommend" class="container py-5">
+    <section id="recommend" class="container py-5 ">
         <p class="fs-3" style="color: #38220f;">Recommend</p>
         <hr class="border-2" style="border-color: #38220f;">
         <Flicking class="py-5" :options="options" :plugins="plugins">

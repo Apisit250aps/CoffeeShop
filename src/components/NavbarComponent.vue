@@ -3,7 +3,7 @@
 </script>
 
 <template>
-    <nav class="navbar navbar-expand-lg  pt-3 sticky-top">
+    <nav class="navbar navbar-expand-lg pt-3 sticky-top">
         <div class="container d-flex flex-row align-items-center justify-content-between">
             <a class="navbar-brand fw-semibold" href="#" style="color: #38220f;">
                 <p class="fs-4">Cafe, Coffee</p>
@@ -36,7 +36,7 @@
                                 aria-expanded="false">
                                 <span class="d-inline d-lg-none"><i class="bx mx-3 bx-s bx-drink"></i></span>Menu
                             </a>
-                            <ul class="dropdown-menu border-0">
+                            <ul class="dropdown-menu border-0 shadow">
                                 <li><a class="dropdown-item" href="#coffee">Coffee</a></li>
                                 <li><a class="dropdown-item" href="#tea">Tea</a></li>
                                 <li><a class="dropdown-item" href="#drinks">Other</a></li>
