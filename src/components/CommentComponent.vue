@@ -61,15 +61,15 @@ const reviews = [
     <section id="comment">
         <div class="container py-3 py-lg-5">
             <div class="row row-cols-1 row-cols-lg-2 m-auto">
-                <div class="col">
-                    <img class="img-fluid rounded-5 shadow"
+                <div class="col" >
+                    <img class="img-fluid rounded-5 shadow" 
                         src="https://img.freepik.com/free-vector/realistic-coffee-background-with-drawings_79603-603.jpg?w=1380&t=st=1698764599~exp=1698765199~hmac=70234a5454daa12ed6b1e5f4921bd98bfdc9a213ac1908c8e8ef09739a9bef43"
                         alt="">
                 </div>
                 <div class="col py-2">
                     <p class="text-white fs-4"><span><i class='bx bx-message-square-dots mx-2'></i></span>Review</p>
                     <hr class="border-white">
-                    <div class="comment-list px-2">
+                    <div class="comment-list px-2" data-aos="zoom-in-right">
                         <Flicking :options="options" :plugins="plugins">
                             <div class="" v-for="(item, index) in reviews" :key="index">
                                 <b class="text-white">{{ item.username }}</b>

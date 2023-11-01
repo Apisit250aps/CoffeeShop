@@ -68,7 +68,7 @@ const coffee_names = ["Espresso", "Latte", "Mocha", "Cappuccino", "Americano", "
 
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col" data-aos="fade-left"  >
                         <img src="https://png.pngtree.com/background/20230527/original/pngtree-lighting-of-cafe-table-and-chairs-picture-image_2760365.jpg"
                             alt="" class="img-fluid rounded-5">
                     </div>
@@ -80,9 +80,9 @@ const coffee_names = ["Espresso", "Latte", "Mocha", "Cappuccino", "Americano", "
         <div class="" id="coffee">
             <p class="fs-4 fw-semibold" style="color: #38220f;"><span><i class="bx bx-coffee bx-lg"></i></span>Coffee</p>
             <hr>
-            <div class="py-3">
+            <div class="py-3" >
                 <Flicking :options="options">
-                    <div class="menu-list-card shadow rounded-4 mx-3 my-5" v-for="(item, index) in coffee_names"
+                    <div class="menu-list-card shadow rounded-4 mx-3 my-5" v-for="(item, index) in coffee_names" data-aos="zoom-in-up"
                         :key="index">
                         <div class="menu-list-head">
                             <div class="menu-tags shadow">
@@ -113,7 +113,7 @@ const coffee_names = ["Espresso", "Latte", "Mocha", "Cappuccino", "Americano", "
             <hr>
             <div class="py-3">
                 <Flicking :options="options">
-                    <div class="menu-list-card shadow rounded-4 mx-3 my-5" v-for="(item, index) in tea_names" :key="index">
+                    <div class="menu-list-card shadow rounded-4 mx-3 my-5" v-for="(item, index) in tea_names" :key="index" data-aos="zoom-in-up">
                         <div class="menu-list-head">
                             <div class="menu-tags shadow">
                                 <div class="bx bxs-offer bx-md" style="color: #ece0d1;"></div>
@@ -145,7 +145,7 @@ const coffee_names = ["Espresso", "Latte", "Mocha", "Cappuccino", "Americano", "
             <hr>
             <div class="py-3">
                 <Flicking :options="options">
-                    <div class="menu-list-card shadow rounded-4 mx-3 my-5" v-for="(item, index) in juice_names" :key="index">
+                    <div class="menu-list-card shadow rounded-4 mx-3 my-5" v-for="(item, index) in juice_names" :key="index" data-aos="zoom-in-up">
                         <div class="menu-list-head">
                             <div class="menu-tags shadow">
                                 <div class="bx bxs-offer bx-md" style="color: #ece0d1;"></div>

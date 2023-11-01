@@ -21,7 +21,7 @@ const recommends = ['Latte', "Americano", "Mocha", "Espresso", "Black Coffee", "
         <p class="fs-3" style="color: #38220f;">Recommend</p>
         <hr class="border-2" style="border-color: #38220f;">
         <Flicking class="py-5" :options="options" :plugins="plugins">
-            <div class="menu-card card-panel shadow-sm rounded-4 my-5 mx-3" v-for="(item, index) in recommends" :key="index">
+            <div class="menu-card card-panel shadow-sm rounded-4 my-5 mx-3" v-for="(item, index) in recommends" :key="index" >
                 <div class="menu-img">
                     <img class="img-fluid"
                         src="https://purepng.com/public/uploads/large/purepng.com-cup-mug-coffeecupmugcoffeebean-1411527406382isz5a.png"
