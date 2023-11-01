@@ -7,6 +7,7 @@ import RecommendComponent from '../components/RecommendComponent.vue';
 import MenuComponent from '../components/MenuComponent.vue';
 import CommentComponent from '../components/CommentComponent.vue';
 import FooterComponent from '../components/FooterComponent.vue';
+import ViewsComponent from '../components/ViewsComponent.vue';
 
 </script>
 
@@ -17,6 +18,6 @@ import FooterComponent from '../components/FooterComponent.vue';
   <RecommendComponent />
   <MenuComponent />
   <CommentComponent />
-  <div class="vh-100"></div>
+  <ViewsComponent />
   <FooterComponent />
 </template>
