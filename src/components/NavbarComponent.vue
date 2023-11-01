@@ -31,9 +31,16 @@
                                 <span class="d-inline d-lg-none"><i
                                         class="bx mx-3 bx-s bx-food-menu"></i></span>Recommend</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">
-                                <span class=" d-inline d-lg-none"><i class="bx mx-3 bx-s bx-phone"></i></span>Link</a>
+                        <li class="nav-item dropdown-center">
+                            <a class="nav-link dropdown-toggle" href="#menu" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <span class="d-inline d-lg-none"><i class="bx mx-3 bx-s bx-drink"></i></span>Menu
+                            </a>
+                            <ul class="dropdown-menu border-0">
+                                <li><a class="dropdown-item" href="#coffee">Coffee</a></li>
+                                <li><a class="dropdown-item" href="#tea">Tea</a></li>
+                                <li><a class="dropdown-item" href="#drinks">Other</a></li>
+                            </ul>
                         </li>
                     </ul>
                 </div>
@@ -54,4 +61,5 @@
                 </button>
             </div>
         </div>
-</nav></template>
+    </nav>
+</template>

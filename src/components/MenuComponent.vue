@@ -125,6 +125,7 @@ const coffee_names = ["Espresso", "Latte", "Mocha", "Cappuccino", "Americano", "
                         </div>
                         <div class="menu-list-desc px-3 py-2">
                             <b class="d-block">{{ item }}</b>
+                            
                             <div class="badge" style="background-color: #38220f;">2 $</div>
                         </div>
                         <div class="menu-list-foot">

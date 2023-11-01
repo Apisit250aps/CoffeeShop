@@ -4,11 +4,41 @@
 
 <template>
     <footer id="footer">
-        <div class="container py-3">
-            <div class="row row-cols-1 row-cols-lg-3">
-                
+        <div class="container py-3 py-lg-4">
+            <div class="row row-cols-2 row-cols-lg-4 m-auto pt-3">
+                <div class="col d-flex align-items-center justify-content-center flex-column" >
+                    <img id="logo-footer" src="../assets/logo2.png" class="img-fluid" alt="" srcset="">
+                    <a href="#" class="nav-link text-center" style="color: #ece0d1;">CoffeeShop</a>
+                </div>
+                <div class="col">
+                    <p style="color: #ece0d1;">Most Coffee</p>
+                    <ul class="list-most">
+                        <li>Americano</li>
+                        <li>Espresso</li>
+                        <li>Mocha</li>
+                        <li>Latte</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <p style="color: #ece0d1;">Most Tea</p>
+                    <ul class="list-most">
+                        <li>Assam</li>
+                        <li>Ceylon</li>
+                        <li>Darjeeling</li>
+                        <li>Keemun</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <p style="color: #ece0d1;">Most Drinks</p>
+                    <ul class="list-most">
+                        <li>Cranberry Juice</li>
+                        <li>Grape Juice</li>
+                        <li>Orange Juice</li>
+                        <li>Pineapple Juice</li>
+                    </ul>
+                </div>
             </div>
-            <hr>
+            <hr style="border-color: #ece0d1;">
             <div class="text-white-50 nav">
                 <div class="mx-1">
                     <i class="bx bx-copyright mx-2"></i>
@@ -35,10 +65,18 @@
 footer {
     background-color: #634832;
 }
-
-
 .footer-logo {
     max-width: 10rem;
     max-height: 10rem;
+}
+
+.list-most {
+    list-style-type: none;
+}
+.list-most > li {
+    color: #dbc1ac;
+}
+#logo-footer {
+    max-width: 10rem;
 }
 </style>
