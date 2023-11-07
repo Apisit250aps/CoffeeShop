@@ -29,14 +29,14 @@ const recommends = ['Latte', "Americano", "Mocha", "Espresso", "Black Coffee", "
                 </div>
                 <div class="menu-desc px-3">
                     <b>{{item}}</b>
-                    <p class="text-black-50">Lorem ipsum dolor sit amet.</p>
-                    <div class=" badge badge-price">price 3 $</div>
+                    <p class="text-black">Lorem ipsum dolor sit amet.</p>
+                    <div class="badge badge-price">price 3 $</div>
                 </div>
                 <div class="menu-footer">
-                    <button type="button" class=" btn btn-lg menu-btn-heart">
+                    <button aria-label="favorite" type="button" class=" btn btn-lg menu-btn-heart">
                         <i class="bx bx-heart bx-tada-hover"></i>
                     </button>
-                    <button type="button" class=" btn btn-lg menu-btn-cart shadow-sm">
+                    <button aria-label="add cart" type="button" class=" btn btn-lg menu-btn-cart shadow-sm">
                         <i class="bx bxs-cart-download bx-tada-hover"></i>
                     </button>
                 </div>
@@ -95,8 +95,7 @@ const recommends = ['Latte', "Americano", "Mocha", "Espresso", "Black Coffee", "
     color:red;
 }
 
-
 .badge-price {
-    background-color: #967259;
+    background-color: #634832;
 }
 </style>

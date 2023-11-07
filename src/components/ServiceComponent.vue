@@ -21,7 +21,7 @@
                                 </div>
                                 <div class="col-12 col-lg-8">
                                     <b class="text-white">Coffee Bean</b>
-                                    <p class="text-white-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, deleniti?</p>
+                                    <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, deleniti?</p>
                                 </div>
                             </div>
                         </div>
@@ -32,7 +32,7 @@
                                 </div>
                                 <div class="col-12 col-lg-8">
                                     <b class="text-white">Offer</b>
-                                    <p class="text-white-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, deleniti?</p>
+                                    <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, deleniti?</p>
                                 </div>
                             </div>
                         </div>
@@ -43,7 +43,7 @@
                                 </div>
                                 <div class="col-12 col-lg-8">
                                     <b class="text-white">Discount</b>
-                                    <p class="text-white-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, deleniti?</p>
+                                    <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, deleniti?</p>
                                 </div>
                             </div>
                         </div>
@@ -54,7 +54,7 @@
                                 </div>
                                 <div class="col-12 col-lg-8">
                                     <b class="text-white">Delivery</b>
-                                    <p class="text-white-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, deleniti?</p>
+                                    <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, deleniti?</p>
                                 </div>
                             </div>
                         </div>
@@ -68,6 +68,6 @@
 
 <style>
 #service {
-    background-color: 	#967259;
+    background-color: 	#634832;
 }
 </style>

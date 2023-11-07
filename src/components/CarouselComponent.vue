@@ -34,11 +34,11 @@
             </div>
         </div>
         <div class="controller mt-3">
-            <button class="btn shadow btn-inline rounded-start-5" type="button" data-bs-target="#carouselExampleFade"
+            <button aria-label="prev" class="btn shadow btn-inline rounded-start-5" type="button" data-bs-target="#carouselExampleFade"
                 data-bs-slide="prev">
                 <i class="bx bxs-left-arrow bx-fade-left-hover"></i>
             </button>
-            <button class="btn shadow mx-2 btn-inline rounded-end-5" type="button" data-bs-target="#carouselExampleFade"
+            <button aria-label="next" class="btn shadow mx-2 btn-inline rounded-end-5" type="button" data-bs-target="#carouselExampleFade"
                 data-bs-slide="next">
                 <i class="bx bxs-right-arrow bx-fade-right-hover"></i>
             </button>

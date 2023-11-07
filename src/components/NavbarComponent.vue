@@ -12,7 +12,7 @@
                 aria-labelledby="offcanvasNavbarLabel">
                 <div class="offcanvas-header">
                     <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Cafe, Coffee</h5>
-                    <button type="button" class="btn pe-auto rounded-circle" data-bs-dismiss="offcanvas" aria-label="Close">
+                    <button  type="button" class="btn pe-auto rounded-circle" data-bs-dismiss="offcanvas" aria-label="Close">
                         <i class='bx bx-x bx-spin-hover bx-sm'></i>
                     </button>
                 </div>
@@ -46,10 +46,10 @@
                 </div>
             </div>
             <div class="">
-                <button type="button" class="btn btn-inline d-inline-block text-center  rounded-circle pe-auto mx-1 ">
+                <button aria-label="cart" type="button" class="btn btn-inline d-inline-block text-center  rounded-circle pe-auto mx-1 ">
                     <i class="bx bx-cart bx-tada"></i>
                 </button>
-                <button type="button"
+                <button aria-label="heart" type="button"
                     class="btn btn-inline d-inline-block text-center justify-content-center align-items-center  rounded-circle pe-auto mx-1">
                     <i class="bx bx-heart bx-tada"></i>
                 </button>

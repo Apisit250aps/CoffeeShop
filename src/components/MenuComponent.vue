@@ -16,7 +16,7 @@ const coffee_names = ["Espresso", "Latte", "Mocha", "Cappuccino", "Americano", "
     <section id="menu">
         <div class="py-3" id="menu-cafe">
             <div class="container">
-                <p class="fs-3" style="color: #ece0d1;">Menu</p>
+                <p class="fs-3" style="color: #ffffff;">Menu</p>
                 <hr class="border-2" style="border-color: #ece0d1;">
                 <div class="row row-cols-1 row-cols-lg-2 m-auto ">
                     <div class="col">
@@ -28,7 +28,7 @@ const coffee_names = ["Espresso", "Latte", "Mocha", "Cappuccino", "Americano", "
                                     </div>
                                     <div class="col-12 col-lg-8">
                                         <b class="text-white">Coffee</b>
-                                        <p class="text-white-50">Lorem ipsum dolor sit amet.</p>
+                                        <p class="text-white">Lorem ipsum dolor sit amet.</p>
                                     </div>
                                 </div>
                             </div>
@@ -39,7 +39,7 @@ const coffee_names = ["Espresso", "Latte", "Mocha", "Cappuccino", "Americano", "
                                     </div>
                                     <div class="col-12 col-lg-8">
                                         <b class="text-white">Cake</b>
-                                        <p class="text-white-50">Lorem ipsum dolor sit amet.</p>
+                                        <p class="text-white">Lorem ipsum dolor sit amet.</p>
                                     </div>
                                 </div>
                             </div>
@@ -50,7 +50,7 @@ const coffee_names = ["Espresso", "Latte", "Mocha", "Cappuccino", "Americano", "
                                     </div>
                                     <div class="col-12 col-lg-8">
                                         <b class="text-white">Tea</b>
-                                        <p class="text-white-50">Lorem ipsum dolor sit amet.</p>
+                                        <p class="text-white">Lorem ipsum dolor sit amet.</p>
                                     </div>
                                 </div>
                             </div>
@@ -61,7 +61,7 @@ const coffee_names = ["Espresso", "Latte", "Mocha", "Cappuccino", "Americano", "
                                     </div>
                                     <div class="col-12 col-lg-8">
                                         <b class="text-white">Drink</b>
-                                        <p class="text-white-50">Lorem ipsum dolor sit amet.</p>
+                                        <p class="text-white">Lorem ipsum dolor sit amet.</p>
                                     </div>
                                 </div>
                             </div>
@@ -97,10 +97,10 @@ const coffee_names = ["Espresso", "Latte", "Mocha", "Cappuccino", "Americano", "
                             <div class="badge" style="background-color: #38220f;">3 $</div>
                         </div>
                         <div class="menu-list-foot">
-                            <button class="btn">
+                            <button class="btn" aria-label="favorite">
                                 <i class="bx bx-heart " style="color: red;"></i>
                             </button>
-                            <button class=" shadow btn cart-btn">
+                            <button class=" shadow btn cart-btn" aria-label="add cart">
                                 <i class="bx bxs-cart-download bx-sm bx-tada"></i>
                             </button>
                         </div>
@@ -129,10 +129,10 @@ const coffee_names = ["Espresso", "Latte", "Mocha", "Cappuccino", "Americano", "
                             <div class="badge" style="background-color: #38220f;">2 $</div>
                         </div>
                         <div class="menu-list-foot">
-                            <button class="btn">
+                            <button class="btn" aria-label="favorite">
                                 <i class="bx bx-heart " style="color: red;"></i>
                             </button>
-                            <button class=" shadow btn cart-btn">
+                            <button class=" shadow btn cart-btn" aria-label="add cart">
                                 <i class="bx bxs-cart-download bx-sm bx-tada"></i>
                             </button>
                         </div>
@@ -160,10 +160,10 @@ const coffee_names = ["Espresso", "Latte", "Mocha", "Cappuccino", "Americano", "
                             <div class="badge" style="background-color: #38220f;">2 $</div>
                         </div>
                         <div class="menu-list-foot">
-                            <button class="btn">
+                            <button class="btn" aria-label="favorite">
                                 <i class="bx bx-heart " style="color: red;"></i>
                             </button>
-                            <button class=" shadow btn cart-btn">
+                            <button class=" shadow btn cart-btn" aria-label="add cart">
                                 <i class="bx bxs-cart-download bx-sm bx-tada"></i>
                             </button>
                         </div>

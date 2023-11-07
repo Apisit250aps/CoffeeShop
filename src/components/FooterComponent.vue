@@ -8,10 +8,10 @@
             <div class="row row-cols-2 row-cols-lg-4 m-auto pt-3">
                 <div class="col d-flex align-items-center justify-content-center flex-column" >
                     <img id="logo-footer" src="../assets/logo2.png" class="img-fluid" alt="" srcset="">
-                    <a href="#" class="nav-link text-center" style="color: #ece0d1;">CoffeeShop</a>
+                    <a href="#" class="nav-link text-center" style="color: #fff;">CoffeeShop</a>
                 </div>
                 <div class="col">
-                    <p style="color: #ece0d1;">Most Coffee</p>
+                    <p style="color: #fff;">Most Coffee</p>
                     <ul class="list-most">
                         <li>Americano</li>
                         <li>Espresso</li>
@@ -20,7 +20,7 @@
                     </ul>
                 </div>
                 <div class="col">
-                    <p style="color: #ece0d1;">Most Tea</p>
+                    <p style="color: #fff;">Most Tea</p>
                     <ul class="list-most">
                         <li>Assam</li>
                         <li>Ceylon</li>
@@ -29,7 +29,7 @@
                     </ul>
                 </div>
                 <div class="col">
-                    <p style="color: #ece0d1;">Most Drinks</p>
+                    <p style="color: #fff;">Most Drinks</p>
                     <ul class="list-most">
                         <li>Cranberry Juice</li>
                         <li>Grape Juice</li>
@@ -38,17 +38,17 @@
                     </ul>
                 </div>
             </div>
-            <hr style="border-color: #ece0d1;">
-            <div class="text-white-50 nav">
+            <hr style="border-color: #fff;">
+            <div class=" nav text-white" >
                 <div class="mx-1">
                     <i class="bx bx-copyright mx-2"></i>
                     <span>2023 : Apisit Saithong</span>
                 </div>
-                <a class="mx-1 text-decoration-none text-white-50" href="https://github.com/Apisit250aps">
+                <a class="mx-1 text-decoration-none text-white" href="https://github.com/Apisit250aps">
                     <i class="bx bxl-github mx-2"></i>
                     <span>Apisit250aps</span>
                 </a>
-                <a class="mx-1 text-decoration-none text-white-50" href="https://www.facebook.com/aps.apisit.250/">
+                <a class="mx-1 text-decoration-none text-white" href="https://www.facebook.com/aps.apisit.250/">
                     <i class="bx bxl-facebook-square mx-2"></i>
                     <span>YU</span>
                 </a>
@@ -74,7 +74,7 @@ footer {
     list-style-type: none;
 }
 .list-most > li {
-    color: #dbc1ac;
+    color: #fff;
 }
 #logo-footer {
     max-width: 10rem;
