@@ -90,7 +90,7 @@ const coffee_names = ["Espresso", "Latte", "Mocha", "Cappuccino", "Americano", "
                             </div>
                         </div>
                         <div class="menu-list-img p-1">
-                            <img src="https://pngimg.com/d/mug_coffee_PNG16843.png" alt="" srcset="" class="img-fluid">
+                            <img src="../assets/menu/coffee-menu.png" alt="" srcset="" class="img-fluid">
                         </div>
                         <div class="menu-list-desc px-3 py-2">
                             <b class="d-block">{{ item }}</b>
@@ -120,7 +120,7 @@ const coffee_names = ["Espresso", "Latte", "Mocha", "Cappuccino", "Americano", "
                             </div>
                         </div>
                         <div class="menu-list-img p-1">
-                            <img src="https://clipart-library.com/new_gallery/53-530010_tea-png-transparent-image-tea-cup-png-top.png"
+                            <img src="../assets/menu/tea-menu.png"
                                 alt="" srcset="" class="img-fluid">
                         </div>
                         <div class="menu-list-desc px-3 py-2">
@@ -152,7 +152,7 @@ const coffee_names = ["Espresso", "Latte", "Mocha", "Cappuccino", "Americano", "
                             </div>
                         </div>
                         <div class="menu-list-img p-1">
-                            <img src="https://freepngimg.com/save/9024-drink-png-7/433x524"
+                            <img src="../assets/menu/drink-menu.png"
                                 alt="" srcset="" class="img-fluid">
                         </div>
                         <div class="menu-list-desc px-3 py-2">

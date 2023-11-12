@@ -24,7 +24,7 @@ const recommends = ['Latte', "Americano", "Mocha", "Espresso", "Black Coffee", "
             <div class="menu-card card-panel shadow-sm rounded-4 my-5 mx-3" v-for="(item, index) in recommends" :key="index" >
                 <div class="menu-img">
                     <img class="img-fluid"
-                        src="https://purepng.com/public/uploads/large/purepng.com-cup-mug-coffeecupmugcoffeebean-1411527406382isz5a.png"
+                        src="../assets/recommend/recommend-coffee.png"
                         alt="" srcset="">
                 </div>
                 <div class="menu-desc px-3">
